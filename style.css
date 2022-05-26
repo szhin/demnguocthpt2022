@@ -63,6 +63,20 @@ span {
 
 /* _______________________Start Page1______________________  */
 
+#page1 .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 45px;
+    padding: 8px;
+    color: #fff;
+    border-bottom: 3px solid crimson;
+    border-left: 4px solid crimson;
+    box-shadow: 0 4px 5px #000;
+}
+
 #page1 {
     position: relative;
     background-image: url(../images/1.jpg);
