@@ -63,19 +63,6 @@ span {
 
 /* _______________________Start Page1______________________  */
 
-#page1 .title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 3rem;
-    font-weight: 400;
-    margin-top: 45px;
-    padding: 8px;
-    color: #fff;
-    border-bottom: 3px solid crimson;
-    border-left: 4px solid crimson;
-    box-shadow: 0 4px 5px #000;
-}
 
 #page1 {
     position: relative;
@@ -105,6 +92,19 @@ span {
     display: flex;
 }
 
+#page1 .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 45px;
+    padding: 8px;
+    color: #fff;
+    border-bottom: 3px solid crimson;
+    border-left: 4px solid crimson;
+    box-shadow: 0 4px 5px #000;
+}
 /* ___________________________________________________  */
 
 
@@ -276,6 +276,13 @@ span {
 }
 
 /* _______________________End Page1______________________  */
+
+/* _______________________Start Page2______________________  */
+
+
+/* _______________________End Page2______________________  */
+
+
 /* ______________________ @keyframes______________________ */
 
 @keyframes text_reveal_box {
@@ -315,4 +322,69 @@ span {
     }
 }
 
+/* ______________________ @media______________________ */
 
+@media (max-width: 991px) {
+    #page1 .title {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #page1 .click-music {
+        margin-bottom: -300px;
+    }
+    #page1 .countdown {
+        left: 20%;
+        top:15%;
+        
+    }
+}
+
+@media (max-width: 767px) {
+    #page1 .title {
+        font-size: 2.5rem;
+    }
+    #page1 .page1 .click-music {
+        margin-bottom: -400px;
+    }
+    #page1 .page1 .click-music h2 {
+        font-size: 3rem;
+    }
+    #page1 .page1 .click-music .cta {
+        font-size: 2rem;
+    }
+    #page1 .motivation {
+        top: 45%;
+    }
+    #page1 .motivation h1 {
+        font-size: 2rem;
+    }
+    #page1 .motivation h3 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #page1 .title {
+        font-size: 2rem;
+    }
+
+    #page1 .countdown {
+        left: 10%;
+    }
+    
+    #page1 .page1 .click-music h2 {
+        font-size: 2rem;
+    }
+    #page1 .page1 .click-music .cta {
+        font-size: 1.5rem;
+    }
+    #page1 .motivation {
+        right: 15px;
+    }
+    #page1 .motivation h1 {
+        font-size: 1.5rem;
+    }
+    #page1 .motivation h3 {
+        font-size: 1.5rem;
+    }
+}
